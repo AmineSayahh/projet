@@ -1,0 +1,41 @@
+import { theme } from '@chakra-ui/react'
+
+export const colors: { [color: string]: { [opacity: number]: string } } = {
+  ...theme.colors,
+  primary: {
+    50: '#a9b6ff',
+    100: '#a9b6ff',
+    200: '#a9b6ff',
+    300: '#8799fe',
+    400: '#647cfe',
+    500: '#536dfe',
+    600: '#4b62e5',
+    700: '#4257cb',
+    800: '#26888d',
+    900: '#26888d',
+  },
+  secondary: {
+    50: '#feccce',
+    100: '#feaaae',
+    200: '#fd999d',
+    300: '#fd888d',
+    400: '#fc666c',
+    500: '#FC555C',
+    600: '#e34d53',
+    700: '#ca444a',
+    800: '#b03b40',
+    900: '#973337',
+  },
+  tertiary: {
+    50: '#defff0',
+    100: '#b6f6d9',
+    200: '#8cf0c2',
+    300: '#61e9aa',
+    400: '#1CC577',
+    500: '#1cc577',
+    600: '#109c5d',
+    700: '#067042',
+    800: '#004426',
+    900: '#001808',
+  },
+}
